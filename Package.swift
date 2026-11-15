@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "PubMaticAdapter", targets: ["PubMaticAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/PubMatic/OpenWrapSDK-Swift-Package", exact: "5.5.0"),
+    .package(url: "https://github.com/PubMatic/OpenWrapSDK-Swift-Package", exact: "5.6.0"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "PubMaticAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/pubmatic-adapter/5.12.0/ISPubMaticAdapter5.12.0.zip",
-      checksum: "19b6f72014faf25cb90dce0563b5cfe1204211bfcd2362c8185314cde65a09ab"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/pubmatic-adapter/5.13.0/ISPubMaticAdapter5.13.0.zip",
+      checksum: "60ed128c9a0f9af8a4f60b45ef652741c61858ffb7445882b58c12604391036b"
     )
   ]
 )
